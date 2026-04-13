@@ -68,10 +68,10 @@
         default_layer {
             display-name = "COLEMAK-DH";
             bindings = <
-&kp ESC         &kp Q        &kp W             &kp F           &kp P           &kp B                                   &kp LC(UP)                      &kp J        &kp L            &kp U            &kp Y         &kp SEMI     &kp BSPC
-&kp TAB         &hm LCTRL A  &hm LEFT_SHIFT R  &hm LEFT_ALT S  &hm LEFT_GUI T  &kp G                     &kp LC(LEFT)  &rgb_ug RGB_TOG  &kp LC(RIGHT)  &kp M        &hm RIGHT_GUI N  &hm RIGHT_ALT E  &hm RSHIFT I  &hm RCTRL O  &kp SQT
-&kp LEFT_SHIFT  &kp Z        &kp X             &kp C           &kp D           &kp V        &kp SPACE                  &kp LC(DOWN)                    &kp K        &kp H            &kp COMMA        &kp DOT       &kp FSLH     &kp LEFT_CONTROL
-                                               &kp LGUI        &mo 2           &lt 3 SPACE                                                             &lt 3 ENTER  &mo 1            &kp RALT
+&kp ESC         &kp APOSTROPHE  &kp COMMA         &kp PERIOD      &kp P           &kp Y                                   &kp LC(UP)                      &kp F        &kp G            &kp C            &kp R         &kp L        &kp BSPC
+&kp TAB         &hm LCTRL A     &hm LEFT_SHIFT O  &hm LEFT_ALT E  &hm LEFT_GUI U  &kp I                     &kp LC(LEFT)  &rgb_ug RGB_TOG  &kp LC(RIGHT)  &kp D        &hm RIGHT_GUI H  &hm RIGHT_ALT T  &hm RSHIFT N  &hm RCTRL S  &kp SQT
+&kp LEFT_SHIFT  &kp SEMICOLON   &kp Q             &kp J           &kp K           &kp X        &kp SPACE                  &kp LC(DOWN)                    &kp B        &kp M            &kp W            &kp V         &kp Z        &kp LEFT_CONTROL
+                                                  &kp LGUI        &mo 2           &lt 3 SPACE                                                             &lt 3 ENTER  &mo 1            &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
